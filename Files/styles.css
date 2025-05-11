@@ -80,6 +80,7 @@ label {
 #menu_page {
     padding-top: 2rem;
     gap: 2rem;
+    margin: auto;
     display: none;
 }
 
@@ -256,7 +257,7 @@ footer {
 }
 
 #loading {
-    /*visibility: hidden; */
+    visibility: hidden; 
     position: absolute;
     top: 30%;
     left: 40%;

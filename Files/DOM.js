@@ -261,7 +261,6 @@ class DOM {
     }
 }
 
-window.addEventListener("load",DOM.load_animations);
 bot_game_board.addEventListener("click",DOM.filter_data);
 
 continue_after_win_btn.addEventListener("click", e => {
@@ -305,7 +304,7 @@ select.addEventListener("change",e => {
     game_level = e.target.value;
     DOM.play_click();
 });
-/*
+
 submit_optional_name.addEventListener("click", e => {
     e.preventDefault();
     DOM.play_click();
@@ -318,7 +317,7 @@ close_optional_name.addEventListener("click", e => {
     DOM.play_click();
     DOM.start_page();
 });
-*/
+
 sound_btn.addEventListener("click", () => {
     DOM.play_click();
     sound_on = !sound_on;

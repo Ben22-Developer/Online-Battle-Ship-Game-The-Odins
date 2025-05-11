@@ -1,6 +1,6 @@
 import { user, computer } from './players.js'
 import { Gameboard } from './Gameboard.js';
-import { Gameplaying } from './gamePlaying.js';
+import { Gameplaying } from './gameplaying.js';
 import { DOM } from "./DOM.js"
 
 

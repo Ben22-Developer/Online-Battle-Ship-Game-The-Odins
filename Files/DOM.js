@@ -1,5 +1,5 @@
 import { user,computer } from "./players.js"
-import { Gameplaying } from "./gamePlaying.js";
+import { Gameplaying } from "./gameplaying.js";
 import { Gamesetup } from "./gamesetup.js";
 
 const welcome_section = document.getElementById("welcome_section");

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This website is an online battle ship game version">
+    <title>BATTLE-SHIP-ONLINE-GAME-VERSION</title>
+    <link rel="icon" href="./Files/download.jpg">
+    <link rel="stylesheet" href="./Files/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+    <script defer type="module" src="./Files/gamesetup.js"></script>
+    <script defer type="module" src="./Files/players.js"></script>
+    <script defer type="module" src="./Files/Gameboard.js"></script>
+    <script defer type="module" src="./Files/Gameplaying.js"></script>
+    <script defer type="module" src="./Files/Ships.js"></script>
+    <script defer type="module" src="./Files/DOM.js"></script>
+</head>
+<body>
+    <main>
+        <!--
+        <form id="optional_form">
+            <div>
+                <label for="optional_name">Enter your name (Optional)</label>
+                <input type="text" id="optional_name">
+            </div>
+            <div>
+                <button id="submit_name">Submit</button>
+                <button id="close_optional_name">Close</button>
+            </div>
+        </form>
+        -->
+        <header id="welcome_section">
+            <h1 id="game_welcome_title">ONLINE BATTLE SHIP GAME..</h1>
+        </header>
+        <section id="menu_page">
+            <h1>BATTLE-SHIP</h1>
+            <h2>How is this game played? 🤔</h2>
+            <h3>Get to know about it here 👇</h3>
+            <iframe src="https://www.youtube.com/embed/4gHJlYLomrs?si=BgqFjyRklGUFoNf3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h3>Now let's catch the vibe 😎</h3>
+            <div class="buttons">
+                <button id="start_game_btn">START THE GAME</button>
+                <button id="continue_btn">CONTINUE</button>
+            </div>
+            <div id="level">
+                <h3>Change level</h3>
+                <select name="game_levels">
+                    <option>Game Levels</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
+            </div>
+            <div>
+                <button id="sound_btn">Sound On</button>
+            </div>
+        </section>
+        <div id="loading"></div> 
+        <section id="game_play">
+            <h1 id="game_title">BATTLE-SHIP</h1>
+            <div id="game_boards"></div>
+            <div class="game_updates">
+                <h3 id="user_remaining_ships"></h3>
+                <h3 id="bot_remaining_ships"></h3>
+            </div>
+            <div class="game_updates">
+                <h3 id="user_points"></h3>
+                <h3 id="bot_points"></h3>
+            </div>
+            <div class="buttons ingame">
+                <button id="back_btn">BACK TO THE MENU</button>
+            </div>
+            <dialog>
+                <form id="win_form">
+                    <h3 id="winner_msg"></h3>
+                    <div id="win_btns">
+                        <button id="continue_after_win_btn">CONTINUE</button>
+                        <button id="reset_after_win_btn">RESTART THE GAME</button>
+                    </div>
+                </form>
+            </dialog>
+        </section> 
+        <section id="only_audios">
+            <audio src="./Music/typing (mp3cut.net).mp3" id="typing_sound"></audio>
+            <audio src="./Music/click.mp3" id="click_sound"></audio>
+            <audio src="./Music/ship_hit (mp3cut.net).mp3" id="ship_hit"></audio>
+            <audio src="./Music/ship_sunk (mp3cut.net).mp3" id="ship_sunk"></audio>
+            <audio src="./Music/Lose sound effects - Tanvirul Ambia.mp3" id="lose_effect"></audio>
+            <audio src="./Music/YAY Kids (Celebration) Sound Effect [Free Download] - Sound CFX.mp3" id="win_effect"></audio>
+        </section>
+        <footer> 
+            CODED BY BEN 22 DEV <i class="fab fa-github "></i> 
+        </footer>
+    </main>
+</body>
+</html>

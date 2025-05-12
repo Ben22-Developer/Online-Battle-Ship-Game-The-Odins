@@ -188,7 +188,7 @@ button:active,select:active {
 #toggling_div_user,#toggling_div_bot {
     position: absolute;
     top: 0;
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, 0.352);
     height: 100%; 
     width: 100%; 
     left: 0;
@@ -335,9 +335,14 @@ footer {
         width: 90%;
     }
     .square {
-        width: 2.2rem;
-        height: 2.2rem;
+        width: 2rem;
+        height: 2rem;
         border: 1px solid white;
     }
-
+   .nbrs {
+        margin:.5rem 0rem 0 0;
+    }
+    #optional_form {
+        padding:  1rem .2rem;
+    }
 }

@@ -218,6 +218,8 @@ dialog::backdrop {
 .game_updates {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap:1rem;
 }
 
 .game_updates {
@@ -327,9 +329,15 @@ footer {
 
 @media (width < 500px) {
     html {
-        font-size: 13px;
+        font-size: 15px;
     }
     iframe {
         width: 90%;
     }
+    .square {
+        width: 2.2rem;
+        height: 2.2rem;
+        border: 1px solid white;
+    }
+
 }
